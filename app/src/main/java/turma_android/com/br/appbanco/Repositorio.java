@@ -19,9 +19,7 @@ public class Repositorio {
 
 
     public Repositorio(Context context){
-
         helper = new BancoHelper(context);
-
     }
 
 

@@ -18,9 +18,6 @@ public class BancoHelper extends SQLiteOpenHelper {
 
         super(context, "DB_AGENDA", null, VERSAO);
 
-
-
-
     }
 
     @Override
