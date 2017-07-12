@@ -51,6 +51,7 @@ public class Repositorio {
 
         db.close();
 
+
     }
 
 
@@ -62,6 +63,7 @@ public class Repositorio {
 
 
     public List<Pessoa> listar() {
+
 
         List<Pessoa> resposta = new ArrayList<>();
 

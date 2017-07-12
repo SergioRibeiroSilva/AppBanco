@@ -25,11 +25,13 @@ public class BancoHelper extends SQLiteOpenHelper {
 
         StringBuilder sb = new StringBuilder();
 
+
         sb.append("CREATE TABLE Pessoa (");
         sb.append(" _ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, ");
         sb.append(" NOME text(80) NOT NULL, ");
         sb.append(" EMAIL text(80) NOT NULL ");
         sb.append(")");
+
 
         db.execSQL(sb.toString());
 
